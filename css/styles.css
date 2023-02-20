@@ -1,0 +1,456 @@
+:root {
+  --backgroundColorMain: #e5e5e5;
+  --backgroundColorSecondary: #2f303a;
+  --fontColorMain: #000000;
+  --fontColorSecondary: #757575;
+  --selectionColor: #2196f3;
+  --socialsColor: #212121;
+  --colorWhite: #ffffff;
+  --colorContactLinks: #999999;
+  --portfolioButton: #f5f4fa;
+  --backgroundBorderBottom: #ececec;
+  --backgroundProductCard: #eeeeee;
+  --socialIcon: #afb1b8;
+}
+body {
+  background-color: var(--colorWhite);
+  font-family: 'Roboto', sans-serif;
+  color: var(--socialsColor);
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+ul,
+p,
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  background-color: var(--colorWhite);
+  width: 1600px;
+  margin: 0 auto;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  border-bottom: 1px solid var(--backgroundBorderBottom);
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.web-studio {
+  display: block;
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.blue-text {
+  color: var(--selectionColor);
+}
+.white-text {
+  color: var(--colorWhite);
+}
+.black-text {
+  color: var(--fontColorMain);
+}
+
+.social-links {
+  display: flex;
+  gap: 46px;
+  margin-left: 93px;
+  list-style: none;
+}
+.social-links .link:hover,
+.social-links .link:focus {
+  color: var(--selectionColor);
+}
+.current-link {
+  color: var(--selectionColor);
+}
+.social-links .link {
+  display: block;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--socialsColor);
+  margin: 32px 0;
+}
+
+.contact-list {
+  display: flex;
+  gap: 30px;
+  margin-left: auto;
+  list-style: none;
+}
+.contact-list .contact-link:hover,
+.contact-list .contact-link:focus {
+  color: var(--selectionColor);
+  fill: var(--selectionColor);
+}
+.contact-list .contact-link {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--fontColorSecondary);
+  fill: var(--fontColorSecondary);
+  margin: 32px 0;
+}
+.contact-icon {
+  margin-right: 10px;
+}
+
+.top-heading {
+  padding: 200px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 30px;
+  max-width: 1600px;
+  color: var(--colorWhite);
+  background-color: var(--backgroundColorSecondary);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/headerphoto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-heading {
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.main-button {
+  cursor: pointer;
+  font-family: 'Roboto';
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+  background-color: var(--selectionColor);
+  color: var(--colorWhite);
+  text-align: center;
+}
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--portfolioButton);
+  color: var(--fontColorMain);
+}
+
+.section {
+  padding: 94px 0;
+}
+
+.icon-top {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.icon-logo {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--portfolioButton);
+  border-radius: 4px;
+}
+.first-paragraph-section {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.paragraph-heading {
+  display: block;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--socialsColor);
+  margin: 0 0 10px 0;
+}
+.paragraph-text {
+  display: block;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--fontColorSecondary);
+  margin: 0;
+}
+
+.secondary-heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--socialsColor);
+  margin: 0 0 50px 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.grey-background {
+  background-color: var(--portfolioButton);
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.secondary-heading-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
+}
+.third-heading-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.our-team-card {
+  background-color: var(--colorWhite);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+}
+
+.worker-name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--socialsColor);
+  margin: 30px 0 10px 0;
+}
+.job-name {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--fontColorSecondary);
+  margin: 0 0 16px 0;
+}
+.icon-social-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.icon-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  fill: var(--socialIcon);
+}
+.icon-social-link:hover,
+.icon-social-link:focus {
+  background-color: var(--selectionColor);
+  fill: var(--colorWhite);
+  border-radius: 50%;
+}
+.clients-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.icon-clients-link {
+  display: flex;
+  border: 1px solid var(--socialIcon);
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
+  fill: var(--socialIcon);
+}
+.icon-clients-link:hover,
+.icon-clients-link:focus {
+  fill: var(--selectionColor);
+  border-color: var(--selectionColor);
+}
+
+.footer-background {
+  background-color: var(--backgroundColorSecondary);
+  padding: 60px 0;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.footer-flex {
+  display: flex;
+  gap: 70px;
+}
+
+.address-box {
+  margin: 20px 0 0 0;
+}
+.address-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--colorWhite);
+  font-style: normal;
+}
+.contact-list-footer {
+  list-style: none;
+}
+.contact-link-footer {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
+.contact-link-footer:hover,
+.contact-link-footer:focus {
+  color: var(--selectionColor);
+}
+.underline {
+  text-decoration: underline;
+}
+.footer-icon-heading {
+  margin: 12px 0 20px 0;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--colorWhite);
+  letter-spacing: 0.03em;
+}
+.no-margin {
+  margin: 0;
+}
+.footer-icon {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: var(--colorWhite);
+}
+
+.portfolio-button {
+  background-color: var(--portfolioButton);
+  border-radius: 4px;
+  border-style: none;
+  color: var(--socialsColor);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  padding: 6px 22px;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  background-color: var(--selectionColor);
+  color: var(--colorWhite);
+}
+.image-caption {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--socialsColor);
+  margin-bottom: 4px;
+}
+.image-paragraph {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--fontColorSecondary);
+}
+.portfolio-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+.products-box {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-card {
+  background: var(--colorWhite);
+}
+.product-card:hover,
+.product-card:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.product-card a {
+  text-decoration: none;
+}
+.cards-border {
+  padding: 20px 24px;
+  border-left: 1px solid var(--backgroundProductCard);
+  border-right: 1px solid var(--backgroundProductCard);
+  border-bottom: 1px solid var(--backgroundProductCard);
+}
