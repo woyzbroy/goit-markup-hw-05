@@ -31,12 +31,6 @@ h4 {
   padding: 0;
   margin: 0;
 }
-
-.wrapper {
-  background-color: var(--colorWhite);
-  width: 1600px;
-  margin: 0 auto;
-}
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -46,8 +40,6 @@ h4 {
 
 .header {
   border-bottom: 1px solid var(--backgroundBorderBottom);
-  max-width: 1600px;
-  margin: 0 auto;
 }
 .header .container {
   display: flex;
@@ -236,8 +228,6 @@ h4 {
 
 .grey-background {
   background-color: var(--portfolioButton);
-  max-width: 1600px;
-  margin: 0 auto;
 }
 .secondary-heading-list {
   display: flex;
@@ -323,8 +313,6 @@ h4 {
 .footer-background {
   background-color: var(--backgroundColorSecondary);
   padding: 60px 0;
-  max-width: 1600px;
-  margin: 0 auto;
 }
 .footer-flex {
   display: flex;
