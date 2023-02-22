@@ -79,6 +79,7 @@ h4 {
 .current-link {
   color: var(--selectionColor);
 }
+
 .social-links .link {
   display: block;
   font-family: 'Roboto';
