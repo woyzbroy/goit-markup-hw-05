@@ -79,6 +79,13 @@ h4 {
 .current-link {
   color: var(--selectionColor);
 }
+.social-links .after-1::after {
+  content: '';
+  display: block;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
+}
 
 .social-links .link {
   display: block;
@@ -89,7 +96,8 @@ h4 {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--socialsColor);
-  margin: 32px 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contact-list {
