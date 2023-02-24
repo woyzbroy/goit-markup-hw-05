@@ -72,6 +72,19 @@ h4 {
   margin-left: 93px;
   list-style: none;
 }
+.social-links .link {
+  display: block;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--socialsColor);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .social-links .link:hover,
 .social-links .link:focus {
   color: var(--selectionColor);
@@ -87,20 +100,6 @@ h4 {
   height: 4px;
   background: #2196f3;
   border-radius: 2px;
-}
-
-.social-links .link {
-  display: block;
-  font-family: 'Roboto';
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--socialsColor);
-  padding-top: 32px;
-  padding-bottom: 32px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list {
