@@ -345,7 +345,7 @@ h4 {
   height: 44px;
   fill: var(--socialIcon);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-social-link:hover,
 .icon-social-link:focus {
