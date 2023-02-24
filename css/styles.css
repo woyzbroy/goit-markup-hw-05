@@ -246,6 +246,53 @@ h4 {
   gap: 30px;
   justify-content: center;
 }
+.secondary-heading-title {
+  position: relative;
+  bottom: 70px;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  padding: 27px 90px;
+  color: var(--colorWhite);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.secondary-heading-title-2 {
+  position: relative;
+  bottom: 70px;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  padding: 27px 113px;
+  color: var(--colorWhite);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.secondary-heading-title-3 {
+  position: relative;
+  bottom: 70px;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  padding: 27px 94px;
+  color: var(--colorWhite);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.secondary-heading-link {
+  display: block;
+  height: 294px;
+}
+
 .third-heading-list {
   list-style: none;
   display: flex;
