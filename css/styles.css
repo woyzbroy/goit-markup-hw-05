@@ -520,14 +520,15 @@ h4 {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   animation: modal-scale 1.5s linear;
+  animation-iteration-count: ;
 }
 @keyframes modal-scale {
   0% {
-    transform: scale(1.5);
+    transform: scale(1.4);
   }
 
   50% {
-    transform: scale(1.25);
+    transform: scale(1.2);
   }
 
   100% {
