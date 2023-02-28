@@ -254,7 +254,6 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 370px;
   height: 70px;
   bottom: 70px;
   text-transform: uppercase;
@@ -270,6 +269,7 @@ h4 {
 .secondary-heading-link {
   display: block;
   height: 294px;
+  text-decoration: none;
 }
 
 .third-heading-list {
